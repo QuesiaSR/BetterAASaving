@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.quesia.betteraasaving.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "access.MinecraftServerAccessor",
+    "access.ServerPlayNetworkHandlerAccessor",
+
+    "ClientAdvancementManagerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

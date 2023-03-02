@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "betteraasaving",
+  "version": "${version}",
+  "name": "BetterAASaving",
+  "description": "Saves the player data whenever an advancement's criteria is reached.",
+  "authors": ["Quesia"],
+  "contact": {
+    "homepage": "https://github.com/QuesiaSR"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "mixins": ["betteraasaving.mixins.json"],
+  "depends": {
+    "minecraft": "1.16.1"
+  }
+}
